@@ -33,9 +33,9 @@ sklearn.model_selection.train_test_split
 
 ## Results
 
-Using bulleted lists, describe the accuracy scores and the precision and recall scores of all machine learning models.
+**Using bulleted lists, describe the accuracy scores and the precision and recall scores of all machine learning models.**
 
-* Machine Learning Model 1:
+*** Machine Learning Model 1:**
     * Description of Model 1 Accuracy, Precision, and Recall scores.
 
     * Accuracy: This model's accuracy was 99%.
@@ -44,12 +44,12 @@ Using bulleted lists, describe the accuracy scores and the precision and recall 
 
 ## Summary
 
-Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
+**Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:**
 
 * Which one seems to perform best? How do you know it performs best?
-    This exercise only looked at a single machine learning model. The next step after this, in order to conclude the model, is to perform a second logistic regression model using resampled training data. We could use the imblearn.over_sampling module to upsample the High Risk loans in order to create synthetic data in order to make both labels have around 18759. In this case we prefer to oversample rather than scale down the low risk loans in order to have more records with which to train and test the model.
+    * This exercise only looked at a single machine learning model. The next step after this, in order to conclude the model, is to perform a second logistic regression model using resampled training data. We could use the imblearn.over_sampling module to upsample the High Risk loans in order to create synthetic data in order to make both labels have around 18759. In this case we prefer to oversample rather than scale down the low risk loans in order to have more records with which to train and test the model.
 * Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
-    Low-risk (healthy) loans = 0 and High-risk loans = 1. The problem we are trying to solve is to identify which loans would produce high risk loans = 1. It is more important to identify the 67 false negatives than to identify 80 false positives because if we miss any false negatives then we will have originated 67 high risk loans.
+    * Low-risk (healthy) loans = 0 and High-risk loans = 1. The problem we are trying to solve is to identify which loans would produce high risk loans = 1. It is more important to identify the 67 false negatives than to identify 80 false positives because if we miss any false negatives then we will have originated 67 high risk loans.
     
 
 If you do not recommend any of the models, please justify your reasoning.
