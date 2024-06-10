@@ -23,8 +23,11 @@ The purpose of the analyis is to create a data model that is accurate enough to 
 The process started with an analysis of historical data, followed by identifying the target y variable and the features which are stored in the x variable. After this, the data was split into training and testing data sets with an assigned random state of '1'. Next, the logistic regression model was created by fitting a logistic regression model using the training data. Finally, we evaluated the model's performance by generating a confusion matrix and printing the classification report. The modules, submodules, and classes used to accomplish important machine learning tasks were these:
 
 sklearn.linear_model.LogisticRegression
+
 sklearn.metrics.classification_report
+
 sklearn.metrics.confusion_matrix
+
 sklearn.model_selection.train_test_split
 
 
