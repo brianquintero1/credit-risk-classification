@@ -35,7 +35,7 @@ sklearn.model_selection.train_test_split
 
 **Using bulleted lists, describe the accuracy scores and the precision and recall scores of all machine learning models.**
 
-*** Machine Learning Model 1:**
+* ** Machine Learning Model 1:**
     * Description of Model 1 Accuracy, Precision, and Recall scores.
 
     * Accuracy: This model's accuracy was 99%.
