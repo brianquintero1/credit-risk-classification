@@ -36,7 +36,7 @@ sklearn.model_selection.train_test_split
 **Using bulleted lists, describe the accuracy scores and the precision and recall scores of all machine learning models.**
 
 - **Machine Learning Model 1:**
-    * Description of Model 1 Accuracy, Precision, and Recall scores.
+  **Description of Model 1 Accuracy, Precision, and Recall scores.**
 
     * Accuracy: This model's accuracy was 99%.
     * Precision: The model's precision is measured by looking at its precision for the two different types of loans, based on the target variables. Low risk loans had a precision of 100% and high risk loans had a precision of 87%. Looking at the weighted average precision, we see a 99% precision. This weighted average is highly influenced by the fact that the data was not resampled to account for the imbalance presented by the uneven distribution of the target variable: Low Risk loans were = 18759 and high risk loans = 625.
